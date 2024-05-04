@@ -1,6 +1,15 @@
 # INTRODUÇÃO
 Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar.
 
+## Organização
+O repositório está dividido em duas partes:
+- A aplicação e otimização da rede neural para previsão da dureza de materiais dado as informações das features junto com explicações detalhadas do códido e do desenvolvimento do raciocínio por trás. Tudo isso dentro de um notebook jupyter com interpolações entre código e texto de forma intuitiva.
+- A *lore* criada para envolver o leitor, caso queira, em uma história baseadas na cultura geek, em especial, em RPGs de fantasia medieval. Toda a lore foi desenvolvida pensando em inspirar o leitor ou pesquisador a 
+
+### Lore
+
+### Código
+
 ## Equipe
 *TechTrinity* - Samuel Soares de Araújo, Eric Leandro Lima Mendoça e Daniel Carrasco Vieira 
 
@@ -51,9 +60,7 @@ O dataset de validação é composto por 51 cristais sintéticos singulares reti
 Os dados utilizados para a rede neural foram retirados de um dataset de domínio público na plataforma Kaggle, o dataset foi disponibilizado por Jocelyn Dumlao(https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data). A fonte original dos dados é da doutora Joy Carleen Garnett, cientista de dados na Vanderblit University - Nashville, Tennessee, US.
 DOI: 10.17632/jm79zfps6b.1 | link: https://data.mendeley.com/datasets/jm79zfps6b/1
 
-## Organização
 
-### Lore
 
 
 

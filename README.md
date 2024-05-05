@@ -64,10 +64,10 @@ O dataset de validação é composto por 51 cristais sintéticos singulares reti
 - 4 de estrutura cúbica;
 - 3 de estrutura romboédrica.
 
-### Lore
+## Lore
 O notebook da lore foi desenvolvido com muita atenção para uma imersão semelhante a uma novel de fantasia medieval com dragões e magia. Todas as imagens utilizadas para ilustração foram feitas por IA, permitindo o uso irrestrito das ilustrações, em relação a história, o desenvolvimento por inteiro é original e se encaixa de maneira suave aos tópicos apresentados no notebook do código e das explicações em si. É recomendado que a leitura da lore seja feita antes da leitura do outro notebook, porém a leitura da lore não é obrigatória para o entendimento do desenvolvimento da exploração dos datasets e da predição pela rede neural.
 
-### Código
+## Código
 O notebook com o código possui a estrutura inspirada em publicações científicas, unindo formalidade com uma leitura fluída e de fácil entendimento(assim esperamos). É de suma importância que os textos sejam lidos na ordem e ao decorrer da elaboração dos códigos e dos resultados para que haja um entendimento correto e completo da proposta, do raciocínio e dos resultados. No conteúdo em si, há a introdução aos principais tópicos em relação aos minerais junto as suas features e ao conceito de dureza(alvo principal da predição), além dos códicos com as explicações necessárias, e, por fim, os resultados das predições e as conclusões dos autores. Caso ocorra dúvidas ou haja o desejo de aprofundamento, todas as referências utilizadas estão presentes aqui no Readme e ao fim do notebook.
 
 ## Tecnologias/Técnicas

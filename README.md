@@ -1,20 +1,28 @@
 # INTRODUÇÃO
-Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar.
+Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar. 
 
-## Organização
 O repositório está dividido em duas partes:
 - A aplicação e otimização da rede neural para previsão da dureza de materiais dado as informações das features junto com explicações detalhadas do códido e do desenvolvimento do raciocínio por trás. Tudo isso dentro de um notebook jupyter com interpolações entre código e texto de forma intuitiva.
-- A *lore* criada para envolver o leitor, caso queira, em uma história baseadas na cultura geek, em especial, em RPGs de fantasia medieval. Toda a lore foi desenvolvida pensando em inspirar o leitor ou pesquisador a 
+  
+- A *lore* criada funciona como uma história baseada na cultura geek, em especial, em RPGs de fantasia medieval. Toda a lore foi desenvolvida pensando em inspirar o leitor ou pesquisador a se envolver com o problema, permitindo o fácil entendimento de como funciona o procedimento perdição. [ Esperamos que gostem, fizemos com muito carinho :) ]
 
-### Lore
+## Escopo do projeto
+O projeto consiste na aplicação e na otimização de hiperparâmetros de uma rede neural do tipo MLP para prever a dureza, na escala de Mohs, de minerais a partir de 11 features inerentes a cada material, todos os dados utilizados são de datasets públicos de terceiros. 
+Vale ressaltar que não faz parte do escopo do projeto se aprofundar nos aspectos técnicos, sendo necessário, para isso, a leitura das referências bibliográficas.
 
-### Código
+### Objetivo
+A partir dos resultados da predição, analisar a eficácia de redes neurais MLP para predição de dureza de minerais com estruturas cristalinas distintas e explorar as variações para cada tipo de estrutura cristalina, considerando as amostragens utilizadas.
 
 ## Equipe
 *TechTrinity* - Samuel Soares de Araújo, Eric Leandro Lima Mendoça e Daniel Carrasco Vieira 
 
-## Objetivo
-O projeto consiste na aplicação e na otimização de hiperparâmetros de uma rede neural do tipo MLP para prever a dureza, na escala de Mohs, de minerais. 
+## Organização
+O Repositório está dividido em 4 partes:
+
+- Readme -> Guia do projeto. Incluindo a motivação, origem, fontes e organização do github.
+- Datasets -> Pasta com os dois arquivos referentes ao dataset de treino e de validação, os arquivos estão disponibilizados no formato *.csv*
+- Notebooks -> Essa pasta consiste em dois arquivos com a extensão *.ipynb*, incluindo o notebook com o desenvolvimento da *lore* e o notebook com a aplicação da rede neural otmizada para predição junto ao detalhamento do processo de raciocínio e explicação dos códigos passo a passo em norma culta científica.
+- Imagens -> Pasta com as imagens utilizadas para ilustração da narrativa do notebook referente a lore.
 
 ## Datasets
 Os dados extraídos consiste em dois databases de minerais, uma para treino com 622 minerais e outro para validação com 51 minerais. Ambos os dataset possuem um total de 11 descrições atômicas de cada mineral, ou seja, 11 features e a dureza como target.
@@ -56,9 +64,34 @@ O dataset de validação é composto por 51 cristais sintéticos singulares reti
 - 4 de estrutura cúbica;
 - 3 de estrutura romboédrica.
 
+## Lore
+O notebook da lore foi desenvolvido com muita atenção para uma imersão semelhante a uma novel de fantasia medieval com dragões e magia. Todas as imagens utilizadas para ilustração foram feitas por IA, permitindo o uso irrestrito das ilustrações, em relação a história, o desenvolvimento por inteiro é original e se encaixa de maneira suave aos tópicos apresentados no notebook do código e das explicações em si. É recomendado que a leitura da lore seja feita antes da leitura do outro notebook, porém a leitura da lore não é obrigatória para o entendimento do desenvolvimento da exploração dos datasets e da predição pela rede neural.
+
+## Código
+O notebook com o código possui a estrutura inspirada em publicações científicas, unindo formalidade com uma leitura fluída e de fácil entendimento(assim esperamos). É de suma importância que os textos sejam lidos na ordem e ao decorrer da elaboração dos códigos e dos resultados para que haja um entendimento correto e completo da proposta, do raciocínio e dos resultados. No conteúdo em si, há a introdução aos principais tópicos em relação aos minerais junto as suas features e ao conceito de dureza(alvo principal da predição), além dos códicos com as explicações necessárias, e, por fim, os resultados das predições e as conclusões dos autores. Caso ocorra dúvidas ou haja o desejo de aprofundamento, todas as referências utilizadas estão presentes aqui no Readme e ao fim do notebook.
+
+## Tecnologias/Técnicas
+### Linguagem
+- Python
+### Biblitecas
+- Pytorch
+- Numpy
+- Matplotlib
+- Pandas
+- ScikitLearn
+### Plataforma de computação
+- Jupyter Notebook
+  
+## Referências
 ### Autoria dos Datasets
 Os dados utilizados para a rede neural foram retirados de um dataset de domínio público na plataforma Kaggle, o dataset foi disponibilizado por Jocelyn Dumlao(https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data). A fonte original dos dados é da doutora Joy Carleen Garnett, cientista de dados na Vanderblit University - Nashville, Tennessee, US.
 DOI: 10.17632/jm79zfps6b.1 | link: https://data.mendeley.com/datasets/jm79zfps6b/1
+
+### Literatura dos minerais
+
+### Literatura das Redes Neurais
+
+
 
 
 

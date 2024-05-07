@@ -39,7 +39,6 @@ O Repositório está dividido em 4 partes:
 - Datasets -> Pasta com os dois arquivos referentes ao dataset de treino e de validação, os arquivos estão disponibilizados no formato *.csv*
 - Notebooks -> Essa pasta consiste em dois arquivos com a extensão *.ipynb*. Incluindo o notebook com o desenvolvimento da *lore*. Além do notebook com a aplicação da rede neural otmizada para predição junto ao detalhamento do processo de raciocínio e explicação dos códigos passo a passo em norma culta científica.
 - Imagens -> Pasta com as imagens utilizadas para ilustração da narrativa do notebook referente a lore.
-- Funções -> Pasta com os arquivos das funções referentes a rede neural MLP aplicada.
 
 ## Lore
 O notebook da lore foi desenvolvido com muita atenção para uma imersão semelhante a uma novel de fantasia medieval com dragões e magia. Todas as imagens utilizadas para ilustração foram feitas por IA, permitindo o uso irrestrito das ilustrações, em relação a história, o desenvolvimento por inteiro é original e se encaixa de maneira suave aos tópicos apresentados no notebook do código e das explicações em si. É recomendado que a leitura da lore seja feita antes da leitura do outro notebook, porém a leitura da lore não é obrigatória para o entendimento do desenvolvimento da exploração dos datasets e da predição pela rede neural.

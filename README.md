@@ -99,7 +99,6 @@ O dataset de validação é composto por 51 cristais sintéticos singulares reti
 
 ## Bibliotecas
 [1] PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retrieved from https://pytorch.org/
-
 [2] PyTorch. (2024). torch.nn - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/nn.html
 
 [3] PyTorch. (2024). torch.optim - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/optim.html

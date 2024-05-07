@@ -92,14 +92,21 @@ TABOR, David. Mohs's hardness scale-a physical interpretation. Proceedings of th
 
 
 ## Bibliotecas
-PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retrieved from https://pytorch.org/
-PyTorch. (2024). torch.nn - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/nn.html
-PyTorch. (2024). torch.optim - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/optim.html
-Pandas. (2010). pandas documentation. Retrieved from https://pandas.pydata.org/docs/
-Scikit-learn. (2011). scikit-learn preprocessing module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
-Scikit-learn. (2011). scikit-learn metrics module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
-Matplotlib. (2007). matplotlib.pyplot documentation. Retrieved from https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
-NumPy. (2020). NumPy v1.22.0 documentation. Retrieved from https://numpy.org/doc/stable/
+[1] PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retrieved from https://pytorch.org/
+
+[2] PyTorch. (2024). torch.nn - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/nn.html
+
+[3] PyTorch. (2024). torch.optim - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/optim.html
+
+[4] Pandas. (2010). pandas documentation. Retrieved from https://pandas.pydata.org/docs/
+
+[5] Scikit-learn. (2011). scikit-learn preprocessing module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
+
+[6] Scikit-learn. (2011). scikit-learn metrics module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
+
+[7] Matplotlib. (2007). matplotlib.pyplot documentation. Retrieved from https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
+
+[8] NumPy. (2020). NumPy v1.22.0 documentation. Retrieved from https://numpy.org/doc/stable/
 
 
 

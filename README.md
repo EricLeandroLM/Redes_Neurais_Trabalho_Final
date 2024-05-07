@@ -1,5 +1,5 @@
 # Equipe
-*TechTrinity* - Samuel Soares de Araújo, Eric Leandro Lima Mendoça e Daniel Carrasco Vieira 
+*DreamCoders* - Samuel Soares de Araújo e Eric Leandro Lima Mendoça.
 
 # INTRODUÇÃO
 Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar. 

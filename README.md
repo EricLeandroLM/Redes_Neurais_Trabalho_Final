@@ -5,24 +5,37 @@
 Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar. 
 
 O repositório está dividido em duas partes:
-- A aplicação e otimização da rede neural para previsão da dureza de materiais dado as informações das features junto com explicações detalhadas do códido e do desenvolvimento do raciocínio por trás. Tudo isso dentro de um notebook jupyter com interpolações entre código e texto de forma intuitiva.
+- O "notebook oficial", contendo a contextualização dos datasets e dos objetivos do presente trabalho, além do tratamento dos datasets. Ademais, há o desenvolvimento e otimização de uma rede neural para previsão da dureza de materiais dado as informações das features junto aos resultados da aplicação da rede neural no dataset de teste e as conclusões deduzidas a partir desses resultados.
   
-- A *lore* criada funciona como uma história baseada na cultura geek, em especial, em RPGs de fantasia medieval. Toda a lore foi desenvolvida pensando em inspirar o leitor ou pesquisador a se envolver com o problema, permitindo o fácil entendimento de como funciona o procedimento perdição. [ Esperamos que gostem, fizemos com muito carinho :) ]
+- A *lore* criada funciona como uma história baseada na cultura geek, em especial, em RPGs de fantasia medieval. Toda a lore foi desenvolvida pensando em inspirar o leitor ou pesquisador a se envolver com o problema, permitindo a fácil aplicação da rede neural para uma situação hipotética. [ Esperamos que gostem, fizemos com muito carinho :) ]
 
 ## Objetivo
 O projeto consiste na aplicação e na otimização de hiperparâmetros de uma rede neural do tipo MLP para prever a dureza, na escala de Mohs, de minerais a partir de 11 features inerentes a cada material. A partir dos resultados da predição, analisar a eficácia de redes neurais MLP para predição de dureza de minerais com estruturas cristalinas distintas e explorar as variações para cada tipo de estrutura cristalina, considerando as amostragens utilizadas.
 Vale ressaltar que não faz parte do escopo do projeto se aprofundar nos aspectos técnicos, sendo necessário, para isso, a leitura das referências bibliográficas.
 
-### Objetivo
+# Metodologia
 
+
+# Tecnologias/Técnicas
+## Linguagem
+- Python
+## Biblitecas
+- Pytorch
+- Numpy
+- Matplotlib
+- Pandas
+- ScikitLearn
+## Plataforma de computação
+- Jupyter Notebook
 
 # Organização
 O Repositório está dividido em 4 partes:
 
 - Readme -> Guia do projeto. Incluindo a motivação, origem, fontes e organização do github.
 - Datasets -> Pasta com os dois arquivos referentes ao dataset de treino e de validação, os arquivos estão disponibilizados no formato *.csv*
-- Notebooks -> Essa pasta consiste em dois arquivos com a extensão *.ipynb*, incluindo o notebook com o desenvolvimento da *lore* e o notebook com a aplicação da rede neural otmizada para predição junto ao detalhamento do processo de raciocínio e explicação dos códigos passo a passo em norma culta científica.
+- Notebooks -> Essa pasta consiste em dois arquivos com a extensão *.ipynb*. Incluindo o notebook com o desenvolvimento da *lore* com a possibilidade da aplicação da rede neural, por parte do usuário, para prever a dureza de um mineral presente no livro de Durin, o anão ferreiro. Além do notebook com a aplicação da rede neural otmizada para predição junto ao detalhamento do processo de raciocínio e explicação dos códigos passo a passo em norma culta científica.
 - Imagens -> Pasta com as imagens utilizadas para ilustração da narrativa do notebook referente a lore.
+- Funções -> Pasta com os arquivos das funções referentes a rede neural MLP aplicada.
 
 ## Lore
 O notebook da lore foi desenvolvido com muita atenção para uma imersão semelhante a uma novel de fantasia medieval com dragões e magia. Todas as imagens utilizadas para ilustração foram feitas por IA, permitindo o uso irrestrito das ilustrações, em relação a história, o desenvolvimento por inteiro é original e se encaixa de maneira suave aos tópicos apresentados no notebook do código e das explicações em si. É recomendado que a leitura da lore seja feita antes da leitura do outro notebook, porém a leitura da lore não é obrigatória para o entendimento do desenvolvimento da exploração dos datasets e da predição pela rede neural.
@@ -69,49 +82,46 @@ O dataset de validação é composto por 51 cristais sintéticos singulares reti
 - 6 de estrutura ortorrômbicas;
 - 4 de estrutura cúbica;
 - 3 de estrutura romboédrica.
-
-# Tecnologias/Técnicas
-## Linguagem
-- Python
-## Biblitecas
-- Pytorch
-- Numpy
-- Matplotlib
-- Pandas
-- ScikitLearn
-## Plataforma de computação
-- Jupyter Notebook
   
 # Referências
 ## Datasets
-[1] Dumlao, J. (2024). Prediction of Mohs Hardness with Machine Learning. Kaggle. Retrieved from https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data
-[2] Garnett, J. C. (2022). Dataset for Mohs Hardness Prediction. Mendeley Data. DOI: 10.17632/jm79zfps6b.1. Retrieved from https://data.mendeley.com/datasets/jm79zfps6b/1
+[1] Dumlao, J. (2024). Prediction of Mohs Hardness with Machine Learning. Kaggle. Retirado de https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data
+
+[2] Garnett, J. C. (2022). Dataset for Mohs Hardness Prediction. Mendeley Data. DOI: 10.17632/jm79zfps6b.1. retirado de https://data.mendeley.com/datasets/jm79zfps6b/1
 
 ## Literatura 
 [1] TABOR, David. Mohs's hardness scale-a physical interpretation. Proceedings of the Physical Society. Section B, v. 67, n. 3, p. 249, 1954.
-[2] ATP-303 NN 1.1 - Introdução.pdf
-[3] ATP-303 NN 1.2 - Redes neurais.pdf
-[4] ATP-303 NN 1.3 - Regra da cadeia.pdf
-[5] ATP-303 NN 1.4 - Backpropagation.pdf
-[6] ATP-303 NN 3.2 - Notebook Autograd.ipynb
-[7] ATP-303 NN 4.2 - Notebook MLP.ipynb
-[8] ATP-303 NN 5.2 - Notebook PyTorch.ipynb
+
+[2] Cassar, Daniel(2024). ATP-303 NN 1.1 - Introdução.pdf. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
+
+[3] Cassar, Daniel(2024). ATP-303 NN 1.2 - Redes neurais.pdf. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
+
+[4] Cassar, Daniel(2024). ATP-303 NN 1.3 - Regra da cadeia.pdf. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
+
+[5] Cassar, Daniel(2024). ATP-303 NN 1.4 - Backpropagation.pdf. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
+
+[6] Cassar, Daniel(2024). ATP-303 NN 3.2 - Notebook Autograd.ipynb. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
+
+[7] Cassar, Daniel(2024). ATP-303 NN 4.2 - Notebook MLP.ipynb. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
+
+[8] Cassar, Daniel(2024). ATP-303 NN 5.2 - Notebook PyTorch.ipynb. Retirado do repositório da matéria Redes Neurais e Algoritimos Genéticos da ILUM - Escola de Ciência.
 
 ## Bibliotecas
-[1] PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retrieved from https://pytorch.org/
-[2] PyTorch. (2024). torch.nn - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/nn.html
+[1] PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retirado de https://pytorch.org/.
 
-[3] PyTorch. (2024). torch.optim - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/optim.html
+[2] PyTorch. (2024). torch.nn - PyTorch v1.10.1 documentation. Retirado de https://pytorch.org/docs/1.10.1/nn.html.
 
-[4] Pandas. (2010). pandas documentation. Retrieved from https://pandas.pydata.org/docs/
+[3] PyTorch. (2024). torch.optim - PyTorch v1.10.1 documentation. Retirado de https://pytorch.org/docs/1.10.1/optim.html.
 
-[5] Scikit-learn. (2011). scikit-learn preprocessing module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
+[4] Pandas. (2010). pandas documentation. Retirado de https://pandas.pydata.org/docs/.
 
-[6] Scikit-learn. (2011). scikit-learn metrics module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
+[5] Scikit-learn. (2011). scikit-learn preprocessing module documentation. Retirado de https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing.
 
-[7] Matplotlib. (2007). matplotlib.pyplot documentation. Retrieved from https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
+[6] Scikit-learn. (2011). scikit-learn metrics module documentation. Retirado de https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics.
 
-[8] NumPy. (2020). NumPy v1.22.0 documentation. Retrieved from https://numpy.org/doc/stable/
+[7] Matplotlib. (2007). matplotlib.pyplot documentation. Retirado de https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html.
+
+[8] NumPy. (2020). NumPy v1.22.0 documentation. Retirado de https://numpy.org/doc/stable/.
 
 
 

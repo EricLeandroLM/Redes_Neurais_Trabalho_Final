@@ -14,7 +14,11 @@ O projeto consiste na aplicação e na otimização de hiperparâmetros de uma r
 Vale ressaltar que não faz parte do escopo do projeto se aprofundar nos aspectos técnicos, sendo necessário, para isso, a leitura das referências bibliográficas.
 
 # Metodologia
+Para alcançar o objetivo do trabalho de forma plena, foi realizado uma série de etapas: 
 
+- Primeiro, a manipulação dos dados partindo da transformação dos dados de csv para o formato dataframe de tratamento para os datasets junto ao tratamento dos datasets a partir da exploração dos mesmos, permitindo, assim, filtrar as features necessária e relevantes para previsão da dureza, depois, foi feita a segmentação dos dois datasets em treino e teste junto a normalização de dados. 
+- Após a etapa de manipulação, foi construída uma rede neural MLP do tipo regressora, logo depois, fez-se a otimização dos hiperparâmetros usando SGD do próprio PyTorch, ademais, foi feito o treinamento aprimorando a perda através da aplicação de 100 arquiteturas de rede distintas. 
+- Por fim, aplicou-se a rede neural treinada no dataset de teste e computou-se diversas métricas de erros para análise da precisão da rede neural para os diferentes tipos de estrutura cristalina.
 
 # Tecnologias/Técnicas
 ## Linguagem
@@ -33,7 +37,7 @@ O Repositório está dividido em 4 partes:
 
 - Readme -> Guia do projeto. Incluindo a motivação, origem, fontes e organização do github.
 - Datasets -> Pasta com os dois arquivos referentes ao dataset de treino e de validação, os arquivos estão disponibilizados no formato *.csv*
-- Notebooks -> Essa pasta consiste em dois arquivos com a extensão *.ipynb*. Incluindo o notebook com o desenvolvimento da *lore* com a possibilidade da aplicação da rede neural, por parte do usuário, para prever a dureza de um mineral presente no livro de Durin, o anão ferreiro. Além do notebook com a aplicação da rede neural otmizada para predição junto ao detalhamento do processo de raciocínio e explicação dos códigos passo a passo em norma culta científica.
+- Notebooks -> Essa pasta consiste em dois arquivos com a extensão *.ipynb*. Incluindo o notebook com o desenvolvimento da *lore*. Além do notebook com a aplicação da rede neural otmizada para predição junto ao detalhamento do processo de raciocínio e explicação dos códigos passo a passo em norma culta científica.
 - Imagens -> Pasta com as imagens utilizadas para ilustração da narrativa do notebook referente a lore.
 - Funções -> Pasta com os arquivos das funções referentes a rede neural MLP aplicada.
 

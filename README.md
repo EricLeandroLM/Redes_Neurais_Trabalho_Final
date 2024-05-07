@@ -1,4 +1,3 @@
-<p style="text-align: center;"> ILUM - Escola de Ciência </p>
 # INTRODUÇÃO
 Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar. 
 

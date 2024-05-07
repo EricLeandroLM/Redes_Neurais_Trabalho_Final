@@ -6,12 +6,11 @@ O repositório está dividido em duas partes:
   
 - A *lore* criada funciona como uma história baseada na cultura geek, em especial, em RPGs de fantasia medieval. Toda a lore foi desenvolvida pensando em inspirar o leitor ou pesquisador a se envolver com o problema, permitindo o fácil entendimento de como funciona o procedimento perdição. [ Esperamos que gostem, fizemos com muito carinho :) ]
 
-## Escopo do projeto
-O projeto consiste na aplicação e na otimização de hiperparâmetros de uma rede neural do tipo MLP para prever a dureza, na escala de Mohs, de minerais a partir de 11 features inerentes a cada material, todos os dados utilizados são de datasets públicos de terceiros. 
+## Objetivo
+O projeto consiste na aplicação e na otimização de hiperparâmetros de uma rede neural do tipo MLP para prever a dureza, na escala de Mohs, de minerais a partir de 11 features inerentes a cada material. A partir dos resultados da predição, analisar a eficácia de redes neurais MLP para predição de dureza de minerais com estruturas cristalinas distintas e explorar as variações para cada tipo de estrutura cristalina, considerando as amostragens utilizadas.
 Vale ressaltar que não faz parte do escopo do projeto se aprofundar nos aspectos técnicos, sendo necessário, para isso, a leitura das referências bibliográficas.
 
 ### Objetivo
-A partir dos resultados da predição, analisar a eficácia de redes neurais MLP para predição de dureza de minerais com estruturas cristalinas distintas e explorar as variações para cada tipo de estrutura cristalina, considerando as amostragens utilizadas.
 
 ## Equipe
 *TechTrinity* - Samuel Soares de Araújo, Eric Leandro Lima Mendoça e Daniel Carrasco Vieira 
@@ -84,12 +83,18 @@ O dataset de validação é composto por 51 cristais sintéticos singulares reti
   
 # Referências
 ## Datasets
-Dumlao, J. (2024). Prediction of Mohs Hardness with Machine Learning. Kaggle. Retrieved from https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data
-Garnett, J. C. (2022). Dataset for Mohs Hardness Prediction. Mendeley Data. DOI: 10.17632/jm79zfps6b.1. Retrieved from https://data.mendeley.com/datasets/jm79zfps6b/1
+[1] Dumlao, J. (2024). Prediction of Mohs Hardness with Machine Learning. Kaggle. Retrieved from https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data
+[2] Garnett, J. C. (2022). Dataset for Mohs Hardness Prediction. Mendeley Data. DOI: 10.17632/jm79zfps6b.1. Retrieved from https://data.mendeley.com/datasets/jm79zfps6b/1
 
 ## Literatura 
-TABOR, David. Mohs's hardness scale-a physical interpretation. Proceedings of the Physical Society. Section B, v. 67, n. 3, p. 249, 1954.
-
+[1] TABOR, David. Mohs's hardness scale-a physical interpretation. Proceedings of the Physical Society. Section B, v. 67, n. 3, p. 249, 1954.
+[2] ATP-303 NN 1.1 - Introdução.pdf
+[3] ATP-303 NN 1.2 - Redes neurais.pdf
+[4] ATP-303 NN 1.3 - Regra da cadeia.pdf
+[5] ATP-303 NN 1.4 - Backpropagation.pdf
+[6] ATP-303 NN 3.2 - Notebook Autograd.ipynb
+[7] ATP-303 NN 4.2 - Notebook MLP.ipynb
+[8] ATP-303 NN 5.2 - Notebook PyTorch.ipynb
 
 ## Bibliotecas
 [1] PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retrieved from https://pytorch.org/

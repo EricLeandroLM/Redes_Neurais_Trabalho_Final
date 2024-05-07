@@ -100,18 +100,30 @@ class NeuralNetworkRegressor(nn.Module):
 
 '''Neural Reticulados'''
 
-def neural_reticulados():
+def neural_reticulados(X, Y='', adicao_de_runas=False, feitico=''):
     
-    # Parâmetros da rede neural
-    input_size = 8
-    hidden_size1 = 32
-    hidden_size2 = 16
-    epochs = 2000
-    learning_rate = 0.01
+    if adicao_de_runas:
+        # Parâmetros da rede neural
+        input_size = 8
+        hidden_size1 = 32
+        hidden_size2 = 16
+        epochs = 2000
+        learning_rate = 0.01
 
-    # Criação e treinamento da rede neural
-    neural_net = NeuralNetworkRegressor(input_size, hidden_size1, hidden_size2, learning_rate)
-    neural_net.train_model(X_test_scaled_tensor, Y_test_tensor_dimensionado, epochs)
+        # Criação e treinamento da rede neural
+        neural_net = NeuralNetworkRegressor(input_size, hidden_size1, hidden_size2, learning_rate)
+        neural_net.train_model(X, Y, epochs)
+        
+        return neural_net
     
+    elif adicao_de_runas == False:
+        # Prevendo valores com base nos dados
+        prediction = feitico.predict(X)
+           
+        return prediction
     
-    return prediction
+    else:
+        print("Você entoou o feitiço de forma errada, um refluxo de mana está acontecendo, tome cuidado")
+        
+
+'''Inscrição de runas'''

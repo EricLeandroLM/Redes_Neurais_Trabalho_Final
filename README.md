@@ -1,3 +1,4 @@
+<p style="text-align: center;"> ILUM - Escola de Ciência </p>
 # INTRODUÇÃO
 Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar. 
 
@@ -83,15 +84,23 @@ O notebook com o código possui a estrutura inspirada em publicações científi
 - Jupyter Notebook
   
 ## Referências
-### Autoria dos Datasets
-Os dados utilizados para a rede neural foram retirados de um dataset de domínio público na plataforma Kaggle, o dataset foi disponibilizado por Jocelyn Dumlao(https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data). A fonte original dos dados é da doutora Joy Carleen Garnett, cientista de dados na Vanderblit University - Nashville, Tennessee, US.
-DOI: 10.17632/jm79zfps6b.1 | link: https://data.mendeley.com/datasets/jm79zfps6b/1
+### Datasets
+Dumlao, J. (2024). Prediction of Mohs Hardness with Machine Learning. Kaggle. Retrieved from https://www.kaggle.com/datasets/jocelyndumlao/prediction-of-mohs-hardness-with-machine-learning/data
+Garnett, J. C. (2022). Dataset for Mohs Hardness Prediction. Mendeley Data. DOI: 10.17632/jm79zfps6b.1. Retrieved from https://data.mendeley.com/datasets/jm79zfps6b/1
 
-### Literatura dos minerais
+### Literatura 
+TABOR, David. Mohs's hardness scale-a physical interpretation. Proceedings of the Physical Society. Section B, v. 67, n. 3, p. 249, 1954.
 
-### Literatura das Redes Neurais
 
-
+### Bibliotecas
+PyTorch. (2024). PyTorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration. Retrieved from https://pytorch.org/
+PyTorch. (2024). torch.nn - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/nn.html
+PyTorch. (2024). torch.optim - PyTorch v1.10.1 documentation. Retrieved from https://pytorch.org/docs/1.10.1/optim.html
+Pandas. (2010). pandas documentation. Retrieved from https://pandas.pydata.org/docs/
+Scikit-learn. (2011). scikit-learn preprocessing module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing
+Scikit-learn. (2011). scikit-learn metrics module documentation. Retrieved from https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
+Matplotlib. (2007). matplotlib.pyplot documentation. Retrieved from https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html
+NumPy. (2020). NumPy v1.22.0 documentation. Retrieved from https://numpy.org/doc/stable/
 
 
 

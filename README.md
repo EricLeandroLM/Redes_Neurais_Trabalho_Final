@@ -58,7 +58,7 @@ Os dados extraídos consiste em dois databases de minerais, uma para treino com 
 - Densidade média
 - Peso atômico
   
-Entretanto, o dataset de validação possui duas colunas a mais. A primeira corresponde a fórmula molecular do mineral e a segunda ao tipo de estrutura ceistalina.
+Entretanto, o dataset de teste possui duas colunas a mais. A primeira corresponde a fórmula molecular do mineral e a segunda ao tipo de estrutura ceistalina.
 
 ## Dataset de Treino
 O Dataset de treino é composto por 622 minerais com composições únicas obtidos por permutações composicionais de uma base de dados com 369 minerais únicos retirados do *Physical and Optical Properties of Minerals CRC Handbook of Chemestry and Physics* e da *American Mineralogist Crystal Structure Database* . Os minerais presentes do dataset possuem estruturas critalinas diversas como já foi mencionado, sendo: 

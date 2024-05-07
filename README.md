@@ -1,3 +1,6 @@
+# Equipe
+*TechTrinity* - Samuel Soares de Araújo, Eric Leandro Lima Mendoça e Daniel Carrasco Vieira 
+
 # INTRODUÇÃO
 Repositório do Projeto Final de Redes Neurais da disciplina de *Redes Neurais e Algoritimos Genéticos*. A disciplina faz parte da grade curricular do 3º semestre da ILUM - Escola de Ciência, sendo administrada pelo Professor Daniel Cassar. 
 
@@ -12,8 +15,6 @@ Vale ressaltar que não faz parte do escopo do projeto se aprofundar nos aspecto
 
 ### Objetivo
 
-## Equipe
-*TechTrinity* - Samuel Soares de Araújo, Eric Leandro Lima Mendoça e Daniel Carrasco Vieira 
 
 # Organização
 O Repositório está dividido em 4 partes:

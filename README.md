@@ -44,7 +44,7 @@ O notebook da lore foi desenvolvido com muita atenção para uma imersão semelh
 O notebook com o código possui a estrutura inspirada em publicações científicas, unindo formalidade com uma leitura fluída e de fácil entendimento(assim esperamos). É de suma importância que os textos sejam lidos na ordem e ao decorrer da elaboração dos códigos e dos resultados para que haja um entendimento correto e completo da proposta, do raciocínio e dos resultados. No conteúdo em si, há a introdução aos principais tópicos em relação aos minerais junto as suas features e ao conceito de dureza(alvo principal da predição), além dos códicos com as explicações necessárias, e, por fim, os resultados das predições e as conclusões dos autores. Caso ocorra dúvidas ou haja o desejo de aprofundamento, todas as referências utilizadas estão presentes aqui no Readme e ao fim do notebook.
 
 # Datasets
-Os dados extraídos consiste em dois databases de minerais, uma para treino com 622 minerais e outro para validação com 51 minerais. Ambos os dataset possuem um total de 11 descrições atômicas de cada mineral, ou seja, 11 features e a dureza como target.
+Os dados extraídos consiste em dois databases de minerais, uma para treino com 622 minerais e outro para teste com 51 minerais. Ambos os dataset possuem um total de 11 descrições atômicas de cada mineral, ou seja, 11 features e a dureza como target.
 *Features*
 - Número de elétrons
 - Número de elétrons de valência
@@ -73,8 +73,8 @@ O Dataset de treino é composto por 622 minerais com composições únicas obtid
 - 1 de estrutura trigonal;
 - 1 de estrutura amorfa.
 
-## Dataset de Validação
-O dataset de validação é composto por 51 cristais sintéticos singulares retirados da literatura, sendo a distribuição das estruturas cristalinas:
+## Dataset de Teste
+O dataset de teste é composto por 51 cristais sintéticos singulares retirados da literatura, sendo a distribuição das estruturas cristalinas:
 
 - 15 de estrutura monoclínica;
 - 7 de estrutura tetragonal;
